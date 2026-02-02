@@ -7,7 +7,7 @@ This project focuses on **backend system design and API development**, and is de
 ---
 
 ## 🧱 Backend Architecture
-
+```
 Client (Postman / Any Frontend)
 ↓
 API Gateway (Spring Cloud Gateway)
@@ -17,6 +17,7 @@ Service Registry (Eureka Server)
 Quiz Service ↔ Question Service
 ↓
 Database
+```
 
 ---
 
@@ -179,4 +180,5 @@ Backend & Microservices Enthusiast
 🔗 LinkedIn: https://www.linkedin.com/in/yashpal-parmar-
 
 ⭐ This project focuses entirely on backend microservices architecture and API development.
+
 
