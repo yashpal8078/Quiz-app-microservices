@@ -87,21 +87,21 @@ Responsible for question management and evaluation.
 ## 🧪 Core API Endpoints
 
 ### 📌 Quiz Service
-
+```
 POST /quiz/create
 GET /quiz/pin/{quizCode}
 GET /quiz/{quizId}/question/{index}
 POST /quiz/submit/{quizId}
-
+```
 
 ### 📌 Question Service
-
+```
 GET /question/allQuestions
 GET /question/category/{category}
 GET /question/generate
 POST /question/getQuestions
 POST /question/getScore
-
+```
 
 > All APIs are accessed through the **API Gateway**
 
@@ -132,8 +132,9 @@ POST http://localhost:8765/quiz-service/quiz/create
 }
 The system generates a unique Quiz PIN, which can be used by any client to access the quiz.
 ```
+---
 
-###📌 Key Backend Concepts Demonstrated
+### 📌 Key Backend Concepts Demonstrated
 
 Microservices architecture
 
@@ -149,7 +150,9 @@ Loose coupling between services
 
 Backend-first system design
 
-🚀 Future Backend Enhancements
+---
+
+### 🚀 Future Backend Enhancements
 
 Authentication & authorization
 
@@ -163,7 +166,9 @@ Centralized configuration (Spring Cloud Config)
 
 Docker & cloud deployment
 
-👨‍💻 Author
+---
+
+### 👨‍💻 Author
 
 Yashpal Parmar
 Computer Science Engineering Student
@@ -174,3 +179,4 @@ Backend & Microservices Enthusiast
 🔗 LinkedIn: https://www.linkedin.com/in/yashpal-parmar-
 
 ⭐ This project focuses entirely on backend microservices architecture and API development.
+
